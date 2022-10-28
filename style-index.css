@@ -63,5 +63,6 @@ a:hover {
 @media only screen and (max-width: 500px) {
     html {
         background-image: none;
+        text-align: center;
     }
 }
