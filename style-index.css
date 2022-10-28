@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 html {
     height: 100%;
@@ -65,59 +64,4 @@ a:hover {
     html {
         background-image: none;
     }
-=======
-
-html {
-    height: 100%;
-    background-image: url("imagens/desenho2.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: rgb(70, 2, 2);
-    background-color: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(42,0,0,1) 35%, rgba(42,0,0,1) 65%, rgba(0,0,0,1) 100%);
-    background-color: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(42,0,0,1) 35%, rgba(42,0,0,1) 65%, rgba(0,0,0,1) 100%);
-    background-color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(42,0,0,1) 35%, rgba(42,0,0,1) 65%, rgba(0,0,0,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);  
-}
-
-h1 {
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 0px 1px 10px rgb(0, 0, 0);
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-}
-
-.caixa-cabecalho {
-    width: 80%; 
-    height: 100px;
-    margin: 0 auto;  
-    border: solid 3px black;
-    border-color: transparent transparent black transparent;
-    border-radius: 90%/100px;
-}
-
-.caixa-main {
-    width: 100%;
-    margin: 0 auto;
-}
-
-li {
-    padding: 40px 40px 0 40px;
-    font-size: 30px;
-    text-align: left;
-}
-
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: 1s;
-}
-
-a:hover {
-    color: red;
-    text-shadow: 0px 1px 10px rgb(0, 0, 0);
->>>>>>> d179fca6455b6245b704f089466fd0f9ca5d0e6a
 }
