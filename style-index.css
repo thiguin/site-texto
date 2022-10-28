@@ -65,4 +65,8 @@ a:hover {
         background-image: none;
         text-align: center;
     }
+    
+    li {
+        text-align: center;
+    }
 }
