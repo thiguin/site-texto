@@ -74,6 +74,7 @@ div.polaroid {
     margin-bottom: 15px;
     color: black;
     font-weight: bolder;
+    border-radius: 3px;
 }
   
 div.polaroid img {
