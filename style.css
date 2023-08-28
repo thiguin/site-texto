@@ -10,7 +10,9 @@
 
 html {
     height: 100%;
-    background: rgb(0,0,0);
+    /* background-color: #997d60; */
+    background-color: #43372B;
+    /* background: rgb(0,0,0);
     background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,15,29,1) 35%, rgba(15,15,29,1) 65%, rgba(0,0,0,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,15,29,1) 35%, rgba(15,15,29,1) 65%, rgba(0,0,0,1) 100%);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,15,29,1) 35%, rgba(15,15,29,1) 65%, rgba(0,0,0,1) 100%);
@@ -20,15 +22,16 @@ html {
     background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(42,0,0,1) 35%, rgba(42,0,0,1) 65%, rgba(0,0,0,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(42,0,0,1) 35%, rgba(42,0,0,1) 65%, rgba(0,0,0,1) 100%);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(42,0,0,1) 35%, rgba(42,0,0,1) 65%, rgba(0,0,0,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);   */
 }
 
 body {
-    color: #AAAAAA;
+    /* color: #43372B; */
+    color: #E3D1DF;
     /* font-family: 'smart_and_sexyregular';
     font-family: 'Raleway'; 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
-    font-family: 'Lora';
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 header {
