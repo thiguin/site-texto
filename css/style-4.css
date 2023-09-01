@@ -1,0 +1,23 @@
+body {
+    background-color: #43372B;
+    color: #E3D1DF;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+}
+
+.destaque {
+    color: #43372B;
+    background-color: bisque;
+}
+
+.container_3 .texto {
+    padding: 10px;
+}
+
+.container_3 div {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 380px;
+}

@@ -1,0 +1,299 @@
+.container_3 {
+	margin: 50px auto;
+	width: 1200px;
+}
+.grid_1 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_2 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px
+}
+.grid_3 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_4 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_5 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_6 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_7 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_8 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_9 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_10 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_11 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_12 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.grid_15 {
+	position: relative;
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px
+}
+.alpha {
+	margin-left: 0px
+}
+.omega {
+	margin-right: 0px
+}
+.container_3 .grid_1 {
+	width: 360px
+}
+.container_3 .grid_2 {
+	width: 720px
+}
+.container_3 .grid_3 {
+	width: 1080px
+}
+.container_3 .grid_4 {
+	width: 1440px
+}
+.container_3 .grid_5 {
+	width: 1800px
+}
+.container_3 .grid_6 {
+	width: 2160px
+}
+.container_3 .grid_7 {
+	width: 2520px
+}
+.container_3 .grid_8 {
+	width: 2880px
+}
+.container_3 .grid_9 {
+	width: 3240px
+}
+.container_3 .grid_10 {
+	width: 3600px
+}
+.container_3 .grid_11 {
+	width: 3960px
+}
+.container_3 .grid_12 {
+	width: 4320px
+}
+.container_3 .grid_15 {
+	width: 5400px
+}
+.container_3 .prefix_1 {
+	padding-left: 360px
+}
+.container_3 .prefix_2 {
+	padding-left: 720px
+}
+.container_3 .prefix_3 {
+	padding-left: 1080px
+}
+.container_3 .prefix_4 {
+	padding-left: 1440px
+}
+.container_3 .prefix_5 {
+	padding-left: 1800px
+}
+.container_3 .prefix_6 {
+	padding-left: 2160px
+}
+.container_3 .prefix_7 {
+	padding-left: 2520px
+}
+.container_3 .prefix_8 {
+	padding-left: 2880px
+}
+.container_3 .prefix_9 {
+	padding-left: 3240px
+}
+.container_3 .prefix_10 {
+	padding-left: 3600px
+}
+.container_3 .prefix_11 {
+	padding-left: 3960px
+}
+.container_3 .suffix_1 {
+	padding-right: 360px
+}
+.container_3 .suffix_2 {
+	padding-right: 720px
+}
+.container_3 .suffix_3 {
+	padding-right: 1080px
+}
+.container_3 .suffix_4 {
+	padding-right: 1440px
+}
+.container_3 .suffix_5 {
+	padding-right: 1800px
+}
+.container_3 .suffix_6 {
+	padding-right: 2160px
+}
+.container_3 .suffix_7 {
+	padding-right: 2520px
+}
+.container_3 .suffix_8 {
+	padding-right: 2880px
+}
+.container_3 .suffix_9 {
+	padding-right: 3240px
+}
+.container_3 .suffix_10 {
+	padding-right: 3600px
+}
+.container_3 .suffix_11 {
+	padding-right: 3960px
+}
+.container_3 .push_1 {
+	left: 80px
+}
+.container_3 .push_2 {
+	left: 160px
+}
+.container_3 .push_3 {
+	left: 240px
+}
+.container_3 .push_4 {
+	left: 320px
+}
+.container_3 .push_5 {
+	left: 400px
+}
+.container_3 .push_6 {
+	left: 480px
+}
+.container_3 .push_7 {
+	left: 560px
+}
+.container_3 .push_8 {
+	left: 640px
+}
+.container_3 .push_9 {
+	left: 720px
+}
+.container_3 .push_10 {
+	left: 800px
+}
+.container_3 .push_11 {
+	left: 880px
+}
+.container_3 .pull_1 {
+	left: -80px
+}
+.container_3 .pull_2 {
+	left: -160px
+}
+.container_3 .pull_3 {
+	left: -240px
+}
+.container_3 .pull_4 {
+	left: -320px
+}
+.container_3 .pull_5 {
+	left: -400px
+}
+.container_3 .pull_6 {
+	left: -480px
+}
+.container_3 .pull_7 {
+	left: -560px
+}
+.container_3 .pull_8 {
+	left: -640px
+}
+.container_3 .pull_9 {
+	left: -720px
+}
+.container_3 .pull_10 {
+	left: -800px
+}
+.container_3 .pull_11 {
+	left: -880px
+}
+.clear {
+	width: 0px;
+	display: block;
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+	overflow: hidden
+}
+.clearfix:after {
+	line-height: 0;
+	width: 0px;
+	display: block;
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+	font-size: 0px;
+	content: ' '
+}
+.clearfix {
+	display: inline-block
+}
+* html .clearfix {
+	height: 1%
+}
+.clearfix {
+	display: block
+}
