@@ -1,13 +1,18 @@
 body {
-    background-color: #43372B;
-    color: #E3D1DF;
+    background-color: #5C4B51;
+    color: black;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 20px;
 }
 
+img {
+    width: 380px;
+}
+
 .destaque {
-    color: #43372B;
-    background-color: bisque;
+    color: black;
+    background-color: #F2EBBF;
+    border-radius: 8px;
 }
 
 .container_3 .texto {
@@ -18,6 +23,10 @@ body {
     margin-bottom: 20px;
 }
 
-img {
-    width: 380px;
+.titulo {
+    background-color: #F06060;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 20px;
 }
