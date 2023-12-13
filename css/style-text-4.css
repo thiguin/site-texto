@@ -1,5 +1,5 @@
 body {
-    background-color: #5C4B51;
+    background-color: white;
     color: black;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 20px;
@@ -11,7 +11,7 @@ img {
 
 .destaque {
     color: black;
-    background-color: #F2EBBF;
+    background-color: gray;
     border-radius: 8px;
 }
 
@@ -24,7 +24,7 @@ img {
 }
 
 .titulo {
-    background-color: #F06060;
+    background-color: gainsboro;
     text-align: center;
     font-weight: bold;
     padding: 0;
