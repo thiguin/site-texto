@@ -1,8 +1,10 @@
 body {
-    background-color: rgb(red, green, blue);
-    color: black;
+    background-color: #B2B7A6;
+    color: #FFFFFF;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 20px;
+    text-indent: 20px;
+    text-align: justify;
 }
 
 img {
@@ -10,9 +12,9 @@ img {
 }
 
 .destaque {
-    color: black;
-    background-color: lightcoral;
-    border-radius: 8px;
+    color: #B2B7A6;
+    background-color: #FFFFFF;
+    font-weight: bold;
 }
 
 .container_3 .texto {
@@ -23,10 +25,14 @@ img {
     margin-bottom: 20px;
 }
 
+.container_3 .texto-full {
+    width: 1150px;
+    margin: 20px;
+}
+
 .titulo {
-    background-color: gainsboro;
     text-align: center;
     font-weight: bold;
-    padding: 0;
+    padding: 1px;
     margin-top: 20px;
 }
