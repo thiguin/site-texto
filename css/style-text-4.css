@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(red, green, blue);
     color: black;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 20px;
@@ -11,7 +11,7 @@ img {
 
 .destaque {
     color: black;
-    background-color: gray;
+    background-color: lightcoral;
     border-radius: 8px;
 }
 
