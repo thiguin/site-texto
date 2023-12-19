@@ -1,38 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #B2B7A6;
     color: #FFFFFF;
-    font-family: 'Bricolage Grotesque', sans-serif;
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-size: 20px;
     text-indent: 20px;
     text-align: justify;
 }
 
-img {
-    width: 380px;
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
 }
 
-.destaque {
-    color: #B2B7A6;
-    background-color: #FFFFFF;
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+/* CSS do título principal */
+.title-container {
+    position: relative;
+}
+
+.title-main {
+    display: grid;
+    text-align: center;
+    align-items: center;
     font-weight: bold;
+    min-height: 100vh;
 }
 
-.container_3 .texto {
-    padding: 10px;
+.meteors {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
 }
 
-.container_3 div {
-    margin-bottom: 20px;
+.meteor {
+    position: absolute;
+    background-color: white;
+    width: 2px;
+    height: 15px;
+    animation: fall 2s linear infinite;
 }
 
-.container_3 .texto-full {
-    width: 1150px;
-    margin: 20px;
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
 }
 
-.titulo {
+
+/* CSS dos títulos */
+.title {
     text-align: center;
     font-weight: bold;
     padding: 1px;
     margin-top: 20px;
 }
+
+/* CSS dos textos */
+.contrast {
+    color: #B2B7A6;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+
+.container {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.container .text {
+    padding: 10px;
+}
+
+.container div {
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+
+/* CSS dos botões */
+.button-container {
+    text-align: center;
+    height: 20px;
+}
+
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: #8d7c51;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    transition: all 0.7s;
+}
+
+.button:hover {
+    background-color: white;
+    color: #8d7c51;
+}
+
+
+/* CSS dos capítulos */
+.chapter .hidden {
+    filter: blur(0);
+}
+
+.title .meteor {
+    background-color: #B2B7A6;
+}
+
+.divide {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* CSS das boxes */
+:root {
+    --clr-1: #052b2f;
+    --clr-2: #073438;
+    --clr-3: #0e4b50;
+    --clr-4: #2d8f85;
+    --clr-5: #8d7c51;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 1000%;
+    z-index: -1;
+    background: white;
+    border-radius: inherit;
+    animation: rotate 8s linear infinite;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: #B2B7A6;
+    inset: 5px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.box img {
+    max-width: 360px;
+    margin-right: 20px;
+}
+  
+.box p {
+    margin: 0 auto;
+    width: 50%;
+}
+  
