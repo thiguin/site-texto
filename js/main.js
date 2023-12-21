@@ -22,3 +22,11 @@ function generateMeteors(numMeteors) {
     return meteorsHTML;
 }
 
+function showPicture(number) {
+    const sexBox = document.getElementById("sex-" + number);
+    if (sexBox.classList.contains('sex-show')) {
+        sexBox.classList.remove('sex-show');
+    } else {
+        sexBox.classList.add('sex-show');
+    }
+}

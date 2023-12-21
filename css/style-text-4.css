@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:wght@300;400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -95,8 +95,8 @@ body {
 
 /* CSS dos textos */
 .contrast {
-    color: #B2B7A6;
-    background-color: #FFFFFF;
+    color: var(--font-color, #B2B7A6);
+    background-color: var(--bg-color, #FFFFFF);
     font-weight: bold;
 }
 
@@ -130,7 +130,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    gap: 10px;
+    text-indent: 0;
 }
 
 button {
@@ -143,15 +144,16 @@ button {
     text-decoration: none;
     font-size: inherit;
     font-family: inherit;
+    width: 150px;
 }
 
 .button {
-    font-weight: 600;
+    font-weight: 700;
     color: #382b22;
     text-transform: uppercase;
     padding: 1.25em 2em;
     background: #fff0f0;
-    border: 2px solid #b18597;
+    border: 2px solid #8d7c51;
     border-radius: 0.75em;
     transform-style: preserve-3d;
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
@@ -168,7 +170,7 @@ button {
     bottom: 0;
     background: #f9c4d2;
     border-radius: inherit;
-    box-shadow: 0 0 0 2px #b18597;
+    box-shadow: 0 0 0 2px #8d7c51;
     transform: translate3d(0, 0.75em, -1em);
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
 }
@@ -180,7 +182,7 @@ button {
 }
 
 .button:hover::before {
-    box-shadow: 0 0 0 2px #b18597;
+    box-shadow: 0 0 0 2px #8d7c51;
     transform: translate3d(0, 0.5em, -1em);
 }
 
@@ -190,7 +192,7 @@ button {
 }
 
 .button:active::before {
-    box-shadow: 0 0 0 2px #b18597;
+    box-shadow: 0 0 0 2px #8d7c51;
     transform: translate3d(0, 0, -1em);
 }
 
@@ -222,7 +224,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: var(--box-width, 60%);
     margin: 0 auto;
     padding: 50px;
     border-radius: 8px;
@@ -236,7 +238,7 @@ button {
     width: 170px;
     height: 1000%;
     z-index: -1;
-    background: white;
+    background: var(--border-color, #fff);
     border-radius: inherit;
     animation: rotate 8s linear infinite;
 }
@@ -254,17 +256,65 @@ button {
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(var(--degree, 360deg));
     }
 }
 
 .box img {
-    max-width: 360px;
-    margin-right: 20px;
+    max-width: var(--box-img-width, 360px);
+    margin-right: 10px;
 }
   
 .box p {
-    margin: 0 auto;
+    margin: 0 10px;
     width: 50%;
 }
+
+/* CSS das partes picantes */
+.sex {
+    border-radius: 0;
+    background-color: indianred;
+}
+
+.sex-img {
+    filter: blur(5px) grayscale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.sex-img:hover {
+    filter: blur(0) grayscale(1);
+}
+
+.sex-hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.sex-show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    max-height: 600px;
+}
+
+/* CSS da box de imagens */
+.image-box {
+    display: flex;
+    justify-content: center;
+}
   
+.expandable-image {
+    width: 420px;
+    height: 280px;
+    margin: 10px;
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.expandable-image:hover {
+    transform: scale(1.1);
+}
